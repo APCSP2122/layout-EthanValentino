@@ -7,7 +7,9 @@ html {
 
 body {
     color: #000;
-    font-size:2.5rem;
+    font-size:2rem;
+    margin:0;
+    text-align:center;
 }
 
 
@@ -15,8 +17,9 @@ body {
 header {
     background-color:   DeepSkyBlue;
     border:10px solid orange;
-    margin:50px;
-    padding:50px;
+    padding:10px;
+    margin:10px;
+    font-size:2rem;
     display:flex;
     justify-content: space-between;            /* moves items along Main Axis */
     align-items:center;                        /* moves items along Cross Axis */
@@ -30,7 +33,7 @@ main {
     margin:50px;
     padding:50px;
     display:flex;
-    justify-content: space-around;            /* moves items along Main Axis */
+    justify-content: space-between;            /* moves items along Main Axis */
     align-items:center;                       /* moves items along Cross Axis */
 }
 
@@ -46,8 +49,7 @@ footer {
 
 
 section {
-    background-color: yellow;    
-    border:10px solid orange;
+    background-color: yellow;
     margin:25px;
     padding:25px;
     display:flex;
@@ -60,7 +62,6 @@ section {
 
 aside {
     background-color: lightGreen;
-    border:10px solid orange;
     margin:20px;
-    padding:20px;
+    padding:30px;
 }
