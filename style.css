@@ -53,7 +53,7 @@ section {
     margin:25px;
     width: 70vw;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
 }
 
